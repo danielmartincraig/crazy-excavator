@@ -1,0 +1,32 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+[DEBUG] All arguments: ["--script", "/Users/danielcraig/Repos/godot-mcp/build/scripts/godot_operations.gd", "add_node", "{\"scene_path\":\"Main.tscn\",\"node_type\":\"CollisionShape2D\",\"node_name\":\"ExcavatorCollision\",\"parent_node_path\":\"root/Excavator\"}", "--debug-godot"]
+[DEBUG] Script index: 0
+[DEBUG] Operation index: 2
+[DEBUG] Params index: 3
+[INFO] Operation: add_node
+[DEBUG] Params JSON: {"scene_path":"Main.tscn","node_type":"CollisionShape2D","node_name":"ExcavatorCollision","parent_node_path":"root/Excavator"}
+[INFO] Executing operation: add_node
+Adding node to scene: Main.tscn
+Scene path (with res://): res://Main.tscn
+Absolute scene path: /Users/danielcraig/crazy-excavator/Main.tscn
+Scene loaded successfully
+Scene instantiated
+Parent path: root/Excavator
+Parent node found: Excavator
+Instantiating node of type: CollisionShape2D
+Attempting to instantiate class: CollisionShape2D
+Class exists in ClassDB, using ClassDB.instantiate()
+Successfully instantiated class: CollisionShape2D of type: CollisionShape2D
+New node created with name: ExcavatorCollision
+Node added to parent and ownership set
+Pack result: 0 (OK=0)
+Saving scene to: /Users/danielcraig/crazy-excavator/Main.tscn
+Save result: 0 (OK=0)
+File exists check after save: true
+Node 'ExcavatorCollision' of type 'CollisionShape2D' added successfully
+ERROR: 1 RID allocations of type 'P11GodotBody2D' were leaked at exit.
+WARNING: 4 RIDs of type "CanvasItem" were leaked.
+   at: _free_rids (servers/rendering/renderer_canvas_cull.cpp:2679)
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2378)
