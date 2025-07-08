@@ -34,7 +34,7 @@ func _physics_process(delta):
 	# Move the character
 	move_and_slide()
 
-func handle_movement(delta):
+func handle_movement(_delta):
 	# Handle jump
 	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
 		velocity.y = jump_velocity
@@ -70,16 +70,16 @@ func start_digging():
 	# Add some visual feedback (you can enhance this)
 	print("Digging at position: ", dig_position)
 
-func dig_at_position(pos: Vector2):
+func dig_at_position(dig_pos: Vector2):
 	# This is a simplified digging system
 	# In a full implementation, you'd interact with the TileMap
 	# to remove dirt tiles at the specified position
 	
 	# For now, we'll just print debug info
-	print("Excavating dirt at: ", pos)
+	print("Excavating dirt at: ", dig_pos)
 	
 	# TODO: Implement actual tile removal from DirtTerrain
-	# Example: dirt_terrain.set_cell(0, dirt_terrain.local_to_map(pos), -1)
+	# Example: dirt_terrain.set_cell(0, dirt_terrain.local_to_map(dig_pos), -1)
 
 func _input(event):
 	# Handle additional input events if needed
@@ -88,7 +88,7 @@ func _input(event):
 		print("Special excavator action!")
 
 # Helper function to check if there's dirt at a position
-func has_dirt_at_position(pos: Vector2) -> bool:
+func has_dirt_at_position(_pos: Vector2) -> bool:
 	# This would check the TileMap for dirt tiles
 	# Return true if there's dirt to dig
 	return true  # Placeholder

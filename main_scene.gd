@@ -40,7 +40,7 @@ func setup_dirt_terrain():
 	# Set the terrain position
 	dirt_terrain.position = Vector2(0, 0)
 
-func _process(delta):
+func _process(_delta):
 	# Update game logic
 	update_ui()
 
@@ -49,12 +49,12 @@ func update_ui():
 	# This could be connected to UI elements
 	pass
 
-func on_dirt_dug(position: Vector2):
+func on_dirt_dug(dig_position: Vector2):
 	# Called when the excavator digs dirt
 	dirt_tiles_dug += 1
 	score += 10
 	
-	print("Dirt dug at: ", position)
+	print("Dirt dug at: ", dig_position)
 	print("Total dirt dug: ", dirt_tiles_dug)
 	print("Score: ", score)
 

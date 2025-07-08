@@ -1,0 +1,29 @@
+Godot Engine v4.4.1.stable.official.49a5bc7b6 - https://godotengine.org
+
+[DEBUG] All arguments: ["--script", "/Users/danielcraig/Repos/godot-mcp/build/scripts/godot_operations.gd", "save_scene", "{\"scene_path\":\"Main.tscn\"}", "--debug-godot"]
+[DEBUG] Script index: 0
+[DEBUG] Operation index: 2
+[DEBUG] Params index: 3
+[INFO] Operation: save_scene
+[DEBUG] Params JSON: {"scene_path":"Main.tscn"}
+[INFO] Executing operation: save_scene
+Saving scene: Main.tscn
+Full scene path (with res://): res://Main.tscn
+Scene file exists check: true
+Scene loaded successfully
+Scene instantiated
+Save path: res://Main.tscn
+Pack result: 0 (OK=0)
+Saving scene to: res://Main.tscn
+Save result: 0 (OK=0)
+File exists check after save: true
+Scene saved successfully to: res://Main.tscn
+Absolute file path: /Users/danielcraig/crazy-excavator/Main.tscn
+ERROR: 2 RID allocations of type 'P11GodotBody2D' were leaked at exit.
+WARNING: 10 RIDs of type "CanvasItem" were leaked.
+   at: _free_rids (servers/rendering/renderer_canvas_cull.cpp:2679)
+ERROR: 3 RID allocations of type 'PN13RendererDummy14TextureStorage12DummyTextureE' were leaked at exit.
+WARNING: ObjectDB instances leaked at exit (run with --verbose for details).
+   at: cleanup (core/object/object.cpp:2378)
+ERROR: 6 resources still in use at exit (run with --verbose for details).
+   at: clear (core/io/resource.cpp:614)

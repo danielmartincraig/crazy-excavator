@@ -10,10 +10,11 @@ ERROR: 'The parameter "pos" is never used in the function "has_dirt_at_position(
 Setting up dirt terrain...
 Crazy Excavator game started!
 Use arrow keys to move, down arrow to dig!
-Excavating dirt at: (-0.000003, 4886.298)
-Digging at position: (-0.000003, 4886.298)
-Excavating dirt at: (-0.000003, 5910.398)
-Digging at position: (-0.000003, 5910.398)
-Excavating dirt at: (-0.000003, 7471.046)
-Digging at position: (-0.000003, 7471.046)
-Special excavator action!
+Excavating dirt at: (-10.0, 4683.221)
+Digging at position: (-10.0, 4683.221)
+Excavating dirt at: (-15.0, 9145.209)
+Digging at position: (-15.0, 9145.209)
+Excavating dirt at: (20.0, 66649.23)
+Digging at position: (20.0, 66649.23)
+Excavating dirt at: (20.0, 70512.05)
+Digging at position: (20.0, 70512.05)
