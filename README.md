@@ -11,4 +11,4 @@ The sprite art was made by hand using Blender, without the use of AI.
 * Space to jump
 * If you fall off, you have to refresh the page
 
-The game is ![live here on github pages](https://danielmartincraig.github.io/crazy-excavator/)
+The game is live at https://danielmartincraig.github.io/crazy-excavator/
